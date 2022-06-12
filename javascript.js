@@ -9,11 +9,10 @@ let rating = null;
 submit.addEventListener('click', ()=> {
     submit.style.backgroundColor = 'white';
     submit.style.color = 'hsl(25, 97%, 53%)';
-    let userRating = document.getElementById('user-rating');
-    let ratingMsg = document.createElement('div');
-    ratingMsg.innerText = `You selected ${rating} out of 5!`
-    userRating.appendChild(ratingMsg);
-})
+    
+    localStorage.setItem('userRating', rating);
+    window.location.replace("./result.html");
+});
 
 btn1.addEventListener('click', ()=> {
     rating = 1;
