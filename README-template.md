@@ -31,10 +31,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Initial State](./screenshots/initial-state.jpg)
-![Button Hover State](./screenshots/button-hover.jpg)
-![Button Select State](./screenshots/button-select.jpg)
-![Submit Hover State](./screenshots/submit-hover.jpg)
+![Initial State](./screenshots/inital-state.jpg)
+![Button Hover State](./screenshots/button-hover-state.jpg)
+![Button Selected State](./screenshots/button-selected-state.jpg)
+![Submit Hover State](./screenshots/submit-hover-state.jpg)
 ![Rating Message Score 1 - 2](./screenshots/rating-1-2-message.jpg)
 ![Rating Message Score 3 - 5](./screenshots/rating-3-5-message.jpg)
 
