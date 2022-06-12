@@ -9,7 +9,7 @@ resultElement.appendChild(para);
 
 
 if (rating == 1 || rating == 2) {
-    node = document.createTextNode("Were sorry your experience wasnt great. We'll be in touch to see how we can improve for next time");
+    node = document.createTextNode("We're sorry your experience wasn't great. We'll be in touch to see how we can improve for next time");
     para.appendChild(node);
     thankyouInfo.appendChild(node);
 } else {
