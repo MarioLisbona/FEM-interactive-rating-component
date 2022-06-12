@@ -58,8 +58,8 @@ h2, p {
     align-items: center;
     background-color: hsl(213, 19%, 18%);
     color: hsl(217, 12%, 63%);
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 99999px;
     cursor: pointer;
 }
@@ -125,5 +125,26 @@ a {
 
     100% {
         transform: scale(100%)
+    }
+}
+
+@media (max-width: 375px) {
+    .rating-container, .thankyou-container {
+        width: 33vw;
+        height: 33vh;
+        font-size: .5em;
+    }
+
+    .rating-radio-toolbar label {
+        width: 3em;
+        height: 3em;
+    }
+
+    .submit {
+        width: 90%;
+    }
+
+    .thankyou-container img {
+        width: 100px;
     }
 }
