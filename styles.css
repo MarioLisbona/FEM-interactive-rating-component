@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: 15px;
     background-color: black;
     display: flex;
@@ -25,6 +25,11 @@ body {
     background-color: hsl(216, 12%, 8%);
     border-radius: 1.5em;
 }
+
+.thankyou-info {
+    padding: .5em .75em;
+}
+
 
 .header, .title {
     width: 100%;
@@ -52,7 +57,7 @@ h2, p {
     display: none;
 }
 
-.rating-radio-toolbar label {
+.rating-radio-toolbar label, .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +68,7 @@ h2, p {
     border-radius: 99999px;
     cursor: pointer;
 }
+
 .rating-radio-toolbar label:hover {
     background-color: hsl(217, 12%, 63%);
     color: white
@@ -78,7 +84,6 @@ h2, p {
     background-color: hsl(25, 97%, 53%);
     text-align: center;
     padding: .5em 1em;
-    width: 100%;
     border-radius: 99999px;
 }
 
@@ -87,6 +92,8 @@ a {
     color: inherit;
     background-color: inherit;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .submit:hover {
@@ -121,8 +128,11 @@ a {
         transform: scale(0);
     }
 
+    80% {
+        transform: scale(110%);
+    }
     100% {
-        transform: scale(100%)
+        transform: scale(100%);
     }
 }
 
@@ -135,10 +145,6 @@ a {
     .rating-radio-toolbar label {
         width: 2em;
         height: 2em;
-    }
-
-    .submit {
-        width: 90%;
     }
 
     .thankyou-container img {
