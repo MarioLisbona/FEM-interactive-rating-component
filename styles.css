@@ -1,4 +1,4 @@
-* {
+* *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -41,14 +41,18 @@ h2, p {
     color: hsl(217, 12%, 63%);
 }
 
-.rating {
+.rating-radio-toolbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.btn {
+.rating-radio-toolbar input[type="radio"] {
+    display: none;
+}
+
+.rating-radio-toolbar label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +61,18 @@ h2, p {
     width: 50px;
     height: 50px;
     border-radius: 99999px;
+    cursor: pointer;
 }
+.rating-radio-toolbar label:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white
+}
+
+.rating-radio-toolbar input[type="radio"]:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color: white
+}
+
 
 .submit {
     background-color: hsl(25, 97%, 53%);
@@ -74,18 +89,8 @@ a {
     width: 100%;
 }
 
-.btn:hover, .submit:hover {
+.submit:hover {
     cursor: pointer;
-}
-
-.btn:hover {
-    background-color: hsl(217, 12%, 63%);
-    color: white
-}
-
-.btn:active {
-    background-color: hsl(217, 12%, 63%);
-    color: white
 }
 
 .submit:hover {
