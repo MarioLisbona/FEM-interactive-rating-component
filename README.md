@@ -58,6 +58,7 @@ i animated the result card to grow from 0 to 110% andn bounce back to 100%
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- JavaScript
 
 ### What I learned
 
