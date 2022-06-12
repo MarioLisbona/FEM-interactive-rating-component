@@ -21,7 +21,7 @@ body {
     padding: 2.5em;
     color: white;
     height: 55vh;
-    width: 55vh;
+    width: 25vw;
     background-color: hsl(216, 12%, 8%);
     border-radius: 1.5em;
 }
@@ -130,14 +130,13 @@ a {
 
 @media (max-width: 375px) {
     .rating-container, .thankyou-container {
-        width: 33vw;
-        height: 33vh;
-        font-size: .5em;
+        width: 55vw;
+        height: 45vh;
     }
 
     .rating-radio-toolbar label {
-        width: 3em;
-        height: 3em;
+        width: 2em;
+        height: 2em;
     }
 
     .submit {
