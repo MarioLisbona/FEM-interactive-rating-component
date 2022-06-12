@@ -91,10 +91,8 @@ a {
 
 .submit:hover {
     cursor: pointer;
-}
-
-.submit:hover {
-    background-color: hsl(25, 97%, 47%);
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
 
 .submit:active {
