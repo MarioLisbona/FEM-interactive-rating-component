@@ -107,7 +107,8 @@ a {
     color: hsl(25, 97%, 53%);
 }
 
-.rating-result {
+.rating-result-low,
+.rating-result-high {
     color:hsl(25, 97%, 47%);
     background-color: hsl(213, 19%, 18%);
     padding: .5em 1em;
@@ -121,6 +122,10 @@ a {
 
 .thankyou-container {
     animation: grow 200ms linear;
+}
+
+.hide {
+    display: none;
 }
 
 @keyframes grow {
