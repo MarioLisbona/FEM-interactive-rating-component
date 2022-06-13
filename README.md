@@ -52,6 +52,11 @@ I then decided to display two different messages depending on what the user rati
 
 i animated the result card to grow from 0 to 110% andn bounce back to 100%
 
++++Update+++
+I have now deleted the second html page and associated .js file. The whole page runs on the index.html page with one javascript file.
+I created a class . hide with display: none. I apply this class to both thankyou cards on index.html thus hiding them and showing the rating card
+I then used the classList.add and classList.remove methods to add the .hide class to show/hide the rating card or thankyou card.
+
 
 ### Built with
 
